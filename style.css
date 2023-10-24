@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(110deg, #6279a5, #edf1f2, #6b86bb);;
+}
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li, p {
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul li {
+    list-style-type: none;
+    background: linear-gradient(110deg, #577abc, #1d96c6, #466ab1);;
+    float: right;
+    border-radius: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+
+
+
+  
