@@ -45,7 +45,7 @@ section {
     border-radius: 4px;
     padding: 2px;
     width: 550px;
-    height: 300;
+    height: 300px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
     transition: transform 0.3s;
     display: block;
@@ -57,19 +57,7 @@ section {
     border-radius: 4px;
     padding: 2px;
     width: 450px;
-    height: 380;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-    transition: transform 0.3s;
-    display: block;
-    margin: 0 auto;
-
-}
-
-.senn {
-    border-radius: 4px;
-    padding: 2px;
-    width: 500px;
-    height: 300;
+    height: 380px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
     transition: transform 0.3s;
     display: block;
