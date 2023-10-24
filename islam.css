@@ -56,8 +56,8 @@ section {
 .pilgrims {
     border-radius: 4px;
     padding: 2px;
-    width: 450px;
-    height: 380px;
+    width: 700px;
+    height: 400px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
     transition: transform 0.3s;
     display: block;
