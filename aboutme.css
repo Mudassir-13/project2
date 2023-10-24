@@ -48,7 +48,7 @@ div {
     border-radius: 4px;
     padding: 2px;
     width: 500px;
-    height: 300;
+    height: 300px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
     transition: transform 0.3s;
     display: block;
@@ -60,7 +60,7 @@ div {
     border-radius: 4px;
     padding: 2px;
     width: 580px;
-    height: 400;
+    height: 400px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
     transition: transform 0.3s;
     display: block;
