@@ -1,50 +1,56 @@
 body {
-    background: linear-gradient(110deg, #6279a5, #edf1f2, #6b86bb);;
-}
-h1, h2, h3 {
+    background: linear-gradient(110deg, #6279a5, #edf1f2, #6b86bb);
+  }
+  
+  h1, h2, h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-li, p {
+  }
+  
+  li, p {
     list-style-type: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-nav ul li {
+  }
+  
+  nav ul li {
     list-style-type: none;
-    background: linear-gradient(110deg, #577abc, #1d96c6, #466ab1);;
+    background: linear-gradient(110deg, #577abc, #1d96c6, #466ab1);
     float: right;
     border-radius: 20px;
-}
-nav ul li a{
+  }
+  
+  nav ul li a {
     text-decoration: none;
     padding: 6px 15px;
-    color: white
-}
-nav ul li a:hover{
+    color: white;
+  }
+  
+  nav ul li a:hover {
     background-color: white;
     color: black;
     border-radius: 20px;
-}
-nav ul{
+  }
+  
+  nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
-}
-
-p {
+  }
+  
+  p {
     text-align: center;
-}
-
-div {
+  }
+  
+  div {
     margin: 20px;
-    background: linear-gradient(110deg, #577abc, #1d96c6, #6580b7);;
+    background: linear-gradient(110deg, #577abc, #1d96c6, #6580b7);
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0.0, 0.2);
-}
-
-.senn {
+  }
+  
+  .senn {
     border-radius: 4px;
     padding: 2px;
     width: 500px;
@@ -53,10 +59,9 @@ div {
     transition: transform 0.3s;
     display: block;
     margin: 0 auto;
-
-}
-
-.logo {
+  }
+  
+  .logo {
     border-radius: 4px;
     padding: 2px;
     width: 580px;
@@ -65,13 +70,12 @@ div {
     transition: transform 0.3s;
     display: block;
     margin: 0 auto;
-
-}
-
-.senn:hover {
+  }
+  
+  .senn:hover {
     transform: scale(1.1);
-}
-
-.logo:hover {
+  }
+  
+  .logo:hover {
     transform: scale(1.1);
-}
+  }
