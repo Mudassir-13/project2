@@ -2,13 +2,26 @@ body {
     background: linear-gradient(110deg, #6279a5, #edf1f2, #6b86bb);
   }
   
-  h1, h2, h3 {
+  h1, h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+
+  .resume h1,
+  .resume h2 {
+    text-align: left;
+  }
+  
+  .resume p,
+  .resume ul li {
+    text-align: left;
   }
   
   li, p {
     list-style-type: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
   }
   
   nav ul li {
@@ -37,10 +50,103 @@ body {
     height: 50px;
   }
   
-  section {
+  .white {
     margin: 20px;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0.0, 0.2);
+  }
+
+  
+  .blue { 
+    margin: 20px;
+    background: linear-gradient(110deg, #577abc, #1d96c6, #6580b7);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0.0, 0.2);
+  }
+
+    
+  .blue2 {
+    margin: 20px;
+    background: linear-gradient(110deg, #577abc, #1d96c6, #6580b7);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0.0, 0.2);
+  }
+
+  #mecca {
+    border-radius: 4px;
+    padding: 2px;
+    width: 550px;
+    height: 300px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s;
+    display: block;
+    margin: 0 auto;
+  }
+  #pilgrims {
+    border-radius: 4px;
+    padding: 2px;
+    width: 700px;
+    height: 400px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s;
+    display: block;
+    margin: 0 auto;
+  }
+  iframe {
+    border-radius: 8px;
+    padding: .5px;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s;
+    display: block;
+    margin: 0 auto;
+  }
+  #mecca:hover {
+    transform: scale(1.1);
+  }
+  #pilgrims:hover {
+    transform: scale(1.1);
+  }
+  iframe:hover {
+    transform: scale(1.1);
+  }
+
+
+   p{
+    text-align: center;
+  }
+  
+  #senn {
+    border-radius: 4px;
+    padding: 2px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #logo {
+    border-radius: 4px;
+    padding: 2px;
+    width: 580px;
+    height: 400px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #senn:hover {
+    transform: scale(1.1);
+  }
+  
+  #logo:hover {
+    transform: scale(1.1);
   }
